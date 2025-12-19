@@ -65,7 +65,7 @@ curl -X POST https://<api-domain>/upload \
 Then you can open the browser and access to this url `https://<api-domain>/image/{imageId}/{width}
 > _(The width must be one of 200 | 400 | 600 | 800)_
 
-Example: https://qwiih5jy9b.execute-api.eu-central-1.amazonaws.com/image/onzvmi-funnycat3/400
+Example: https://qwiih5jy9b.execute-api.eu-central-1.amazonaws.com/image/sg9c2q-funnycat2/400
 
 ## To Improve
 - A good UI would be easer for user to upload image.
