@@ -1,0 +1,29 @@
+{
+  "name": "image-resize-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "ts-node build-lambda.ts",
+    "infra:validate": "cd infra && terraform validate",
+    "infra:deploy": "cd infra && terraform apply -auto-approve",
+    "infra:destroy": "cd infra && terraform destroy -auto-approve"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.159",
+    "@types/node": "^25.0.2",
+    "esbuild": "^0.27.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.952.0",
+    "@aws-sdk/client-sqs": "^3.952.0",
+    "@aws-sdk/s3-request-presigner": "^3.954.0",
+    "file-type": "^21.1.1",
+    "jimp": "^1.6.0"
+  }
+}
