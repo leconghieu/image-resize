@@ -7,6 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "setup": "npm install && cd infra && terraform init",
     "build": "ts-node build-lambda.ts",
     "infra:validate": "cd infra && terraform validate",
     "infra:deploy": "cd infra && terraform apply -auto-approve",
