@@ -68,7 +68,7 @@ Then you can open the browser and access to this url `https://<api-domain>/image
 Example: https://qwiih5jy9b.execute-api.eu-central-1.amazonaws.com/image/sg9c2q-funnycat2/400
 
 ## To Improve
-- A good UI would be easer for user to upload image.
+- A good UI would be easier for user to upload image.
 - Add unit tests.
 - Add ESLint + Prettier CI checks before deployment.
 - Add rate limiting and security enhancements.
